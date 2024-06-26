@@ -1,7 +1,24 @@
 
+import json
+import io
 import pymupdf
 import os 
 import fitz
+from paragraph import Content, Paragraph, Page, File
+
+def get_pdf_document(file_path):
+    # Check if the file is a PDF
+    try:
+        pdf_doc = fitz.open(file_path)
+        if pdf_doc.is_pdf:
+            return pdf_doc
+        else:
+            converted_pdf = pdf_doc.convert_to_pdf()
+            return fitz.open("pdf", converted_pdf)
+    
+    except fitz.errors.FileDataError:
+        pass
+
 
 # Question 1
 def extract_document(file_path: str, target_folder: str):
@@ -28,40 +45,34 @@ def extract_document(file_path: str, target_folder: str):
             pix.save(f'{target_folder}/images/{page_idx}/{idx}.png') # save the image as png
             pix = None
     out.close()
-    
-# Question 2
-# def extract_paragraph_text(file_path: str, target_folder: str):
-#     doc = pymupdf.open(file_path)
-#     if not os.path.exists(target_folder):
-#         os.makedirs(target_folder)
-    
-#     out = open(f'{target_folder}/text.txt', "wb")
-#     for page_idx, page in enumerate(doc, start=1):
-#         print("page...", page)
-#         paragraphs = page.get_text("blocks")
-#         lines = page.get_text("html")
-#         for item in paragraphs:
-#             # print(item)
-#             # print(".....")
-#             # text = item[4].replace('\n', '').encode("utf8")
-#             # out.write(text)
-#             # # out.write(bytes((12,)))
-#             # out.write('\n'.encode('utf-8'))    
-#             print(item) 
-#             if item[4] == 0:  # Check if the block is a paragraph
-#                 paragraph_style = {
-#                     "font": item[2],
-#                     "font_size": item[3],
-#                     "color": item[5],
-#                     "alignment": item[6],
-#                     "line_height": item[7],
-#                     "line_width": item[8],
-#                     "line_spacing": item[9],
-#                 }
-#                 print(paragraph_style)
-#                 # paragraph_styles.append(paragraph_style)
- 
-#         # for line in page.get_text("html").splitlines():
-#         #     print(line)
-#     out.close()
 
+def extract_paragraph_text(file_path: str, target_folder: str):
+    doc = get_pdf_document(file_path)
+    if not os.path.exists(target_folder):
+        os.makedirs(target_folder)
+    
+    rendered_file = File(file_path, [])
+    
+    for page_idx, page in enumerate(doc, start=1):
+        redered_page = Page([], page_idx)
+        dict = page.get_text("dict")
+        blocks = dict["blocks"]
+        for block in blocks:
+            paragraph = Paragraph([])
+            if "lines" in block.keys() and block['lines'].__len__() > 0:
+                spans = block['lines']
+                for span in spans:
+                    data = span['spans']
+                    for lines in data:
+                        if lines['text'].strip():
+                            if len(paragraph.contents) > 0 and paragraph.contents[-1].is_append(lines['text'], lines['font'], lines['color'], lines['size'], lines['flags']):
+                                paragraph.contents[-1].__append__(lines['text'])
+                            else:
+                                content = Content(lines['text'], lines['font'], lines['color'], lines['size'], lines['flags'])
+                                paragraph.contents.append(content)
+            if paragraph.contents.__len__() > 0:
+                redered_page.paragraphs.append(paragraph) 
+        rendered_file.pages.append(redered_page)                       
+    with open(f'{target_folder}/text.json', 'w') as out:
+        json.dump(rendered_file.render(), out, indent=4)
+        
