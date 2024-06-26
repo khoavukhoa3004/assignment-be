@@ -46,6 +46,7 @@ def extract_document(file_path: str, target_folder: str):
             pix = None
     out.close()
 
+# Question 2
 def extract_paragraph_text(file_path: str, target_folder: str):
     doc = get_pdf_document(file_path)
     if not os.path.exists(target_folder):
@@ -75,4 +76,29 @@ def extract_paragraph_text(file_path: str, target_folder: str):
         rendered_file.pages.append(redered_page)                       
     with open(f'{target_folder}/text.json', 'w') as out:
         json.dump(rendered_file.render(), out, indent=4)
-        
+
+# Question 3
+def recovery_document(file_path: str, target_folder: str):
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+        if not os.path.exists(target_folder):
+            os.makedirs(target_folder)
+        doc = fitz.open()
+        for page in data['pages']:
+            new_page = doc.new_page()
+            y = 10
+            for paragraphs in page['paragraphs']:
+                for content in paragraphs:
+                    text = content['text']
+                    font = content['font_type']
+                    font_size = content['font_size']
+                    r = (content['color'] >> 16) & 0xFF
+                    g = (content['color'] >> 8) & 0xFF
+                    b = content['color'] & 0xFF
+                    color = (r/255 , g/255, b/255 )
+                    styling = content['styling']
+                
+                    # Add the content item to the current page
+                    new_page.insert_text((10, y), text.upper(), fontsize=font_size, color=color, render_mode=0)
+                    y += font_size * 1.2
+        doc.save(f'{target_folder}/{data["file_name"]}.pdf')

@@ -1,4 +1,4 @@
-from file_mngt import extract_document, extract_paragraph_text
+from file_mngt import extract_document, extract_paragraph_text, recovery_document
 
 TARGET_FOLDER = "output"
 
@@ -12,4 +12,7 @@ TARGET_FOLDER = "output"
 
 # extract_paragraph_text("docx_mock_file.docx", f"{TARGET_FOLDER}/q2/docx_mock_folder")
 
+### QUESTION 3
+# recovery_document(f"{TARGET_FOLDER}/q2/pdf_mock_folder/text.json", f"{TARGET_FOLDER}/q3/pdf_mock_folder")
 
+recovery_document(f"{TARGET_FOLDER}/q2/docx_mock_folder/text.json", f"{TARGET_FOLDER}/q3/docx_mock_folder")
