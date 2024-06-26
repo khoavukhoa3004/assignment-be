@@ -1,13 +1,9 @@
+from file_mngt import extract_document, extract_paragraph_text
 
-import pandas as pd
-import pymupdf
+TARGET_FOLDER = "output"
 
+# extract_document("pdf_mock_file.pdf", f"{TARGET_FOLDER}/q1/pdf_mock_folder")
 
-doc = pymupdf.open("pdf_mock_file.pdf") # open a document
-out = open("output1.txt", "wb") # create a text output
-for page in doc: # iterate the document pages
-    text = page.get_text().encode("utf8") # get plain text (is in UTF-8)
-    image_list = page.get_images()
-    out.write(text) # write text of page
-    # out.write(bytes((12,))) # write page delimiter (form feed 0x0C)
-out.close()
+# extract_document("docx_mock_file.docx", f"{TARGET_FOLDER}/q1/docx_mock_folder")
+
+# extract_paragraph_text("pdf_mock_file.pdf", f"{TARGET_FOLDER}/q2/pdf_mock_folder")
