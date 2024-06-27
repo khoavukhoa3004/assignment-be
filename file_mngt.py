@@ -46,8 +46,8 @@ def extract_document(file_path: str, target_folder: str):
             pix = None
     out.close()
 
-def get_paragraph_text(file_path, doc):
-    rendered_file = File(file_path, [])
+def get_paragraph_text(file_name, doc):
+    rendered_file = File(file_name, [])
     for page_idx, page in enumerate(doc, start=1):
         redered_page = Page([], page_idx)
         rendered_images = []
@@ -85,11 +85,11 @@ def get_paragraph_text(file_path, doc):
     return rendered_file, rendered_images
 
 # Question 2
-def extract_paragraph_text(file_path: str, target_folder: str):
+def extract_paragraph_text(file_name, file_path: str, target_folder: str):
     doc = get_pdf_document(file_path)
     if not os.path.exists(target_folder):
         os.makedirs(target_folder)
-    rendered_file, _ = get_paragraph_text(file_path, doc)
+    rendered_file, _ = get_paragraph_text(file_name, doc)
     with open(f'{target_folder}/text.json', 'w') as out:
         json.dump(rendered_file.render(), out, indent=4)
 
