@@ -2,12 +2,12 @@
   
   ./output
   
-    ./q1
+    ├./q1
   
-      ./docx_mock_folder
+    │  ├./docx_mock_folder
   
-    ./q2
+    │./q2
   
-    ./q3
+    │./q3
   
-    ./q4
+    │./q4
