@@ -46,17 +46,16 @@ def extract_document(file_path: str, target_folder: str):
             pix = None
     out.close()
 
-# Question 2
-def extract_paragraph_text(file_path: str, target_folder: str):
-    doc = get_pdf_document(file_path)
-    if not os.path.exists(target_folder):
-        os.makedirs(target_folder)
-    
+def get_paragraph_text(file_path, doc):
     rendered_file = File(file_path, [])
-    
     for page_idx, page in enumerate(doc, start=1):
         redered_page = Page([], page_idx)
+        rendered_images = []
+        
+        # Get Images, Dict from pymupdf
+        image_list = page.get_images()
         dict = page.get_text("dict")
+        
         blocks = dict["blocks"]
         for block in blocks:
             paragraph = Paragraph([])
@@ -73,7 +72,24 @@ def extract_paragraph_text(file_path: str, target_folder: str):
                                 paragraph.contents.append(content)
             if paragraph.contents.__len__() > 0:
                 redered_page.paragraphs.append(paragraph) 
-        rendered_file.pages.append(redered_page)                       
+        rendered_file.pages.append(redered_page)
+        
+        for idx, img in enumerate(image_list, start=1):
+            xref = img[0] # get the XREF of the image
+            pix = pymupdf.Pixmap(doc, xref) # create a Pixmap
+
+            if pix.n - pix.alpha > 3: # CMYK: convert to RGB first
+                pix = pymupdf.Pixmap(pymupdf.csRGB, pix)
+                rendered_images.append(pix)
+            pix = None
+    return rendered_file, rendered_images
+
+# Question 2
+def extract_paragraph_text(file_path: str, target_folder: str):
+    doc = get_pdf_document(file_path)
+    if not os.path.exists(target_folder):
+        os.makedirs(target_folder)
+    rendered_file, _ = get_paragraph_text(file_path, doc)
     with open(f'{target_folder}/text.json', 'w') as out:
         json.dump(rendered_file.render(), out, indent=4)
 
@@ -99,6 +115,41 @@ def recovery_document(file_path: str, target_folder: str):
                     styling = content['styling']
                 
                     # Add the content item to the current page
-                    new_page.insert_text((10, y), text.upper(), fontsize=font_size, color=color, render_mode=0)
+                    new_page.insert_text((10, y), text.upper(), fontsize=font_size - 1, color=color, render_mode=0)
                     y += font_size * 1.2
         doc.save(f'{target_folder}/{data["file_name"]}.pdf')
+        
+def extract_pptx(file_path: str, target_folder: str):
+    pass
+    # doc_pptx = fitz.open(file_path)
+    
+    # rendered_file, rendered_images = get_paragraph_text(file_path, doc_pptx)
+    # rendered_file.translate()
+    # for item,idx in enumerate(rendered_images, start=1):
+    #     item.save(f'{target_folder}/images/{idx}.png')
+        
+    # with open(file_path, 'r') as file:
+    #     if not os.path.exists(target_folder):
+    #         os.makedirs(target_folder)
+    #     doc = fitz.open()
+    #     for page in rendered_file.pages:
+    #         new_page = doc.new_page()
+    #         y = 10
+    #         for paragraphs in page.paragraphs:
+    #             for content in paragraphs.contents:
+    #                 font = content['font_type']
+    #                 font_size = content['font_size']
+    #                 r = (content['color'] >> 16) & 0xFF
+    #                 g = (content['color'] >> 8) & 0xFF
+    #                 b = content['color'] & 0xFF
+    #                 color = (r/255 , g/255, b/255 )
+    #                 styling = content['styling']
+                
+    #                 # Add the content item to the current page
+    #                 new_page.insert_text((10, y), content.text, fontsize=font_size -5, color=color, render_mode=0)
+    #                 y += font_size * 1.2
+    #             new_page.insert_text((10, y), paragraphs.get_translate(), fontsize=font_size -5, color=color, render_mode=0)
+    #             y += font_size * 1.2
+        # doc.save(f'{target_folder}/{rendered_file.file_name}.pdf')
+
+    
