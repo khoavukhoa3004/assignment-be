@@ -1,5 +1,6 @@
-- Run main.py to generate output folder of each question. The structure of output folder is:
-
+- Run main.py to generate output folder of each question (Remove /app in folder string).
+- Or run run_local.sh to run generate file using docker.
+- The structure of output folder is:
 ###
     ./output
         ├──./q1
