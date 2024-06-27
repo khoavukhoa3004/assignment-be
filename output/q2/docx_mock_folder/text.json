@@ -1,0 +1,1233 @@
+{
+    "file_name": "docx_mock_file.docx",
+    "pages": [
+        {
+            "page_number": 1,
+            "paragraphs": [
+                [
+                    {
+                        "text": "SCHEDULE OF THE MEETING",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Meeting date: October 28th, 2023",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Estimated time: from 9:45 a.m. - 12:18 p.m.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Location: Classroom D202 (Area D) - Danang University ofEconomics",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Participants:",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reporting groups include: Cin, Appendicitis, Mabu, Blue Ribbon.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader - ABC",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Receptionist Group - SevenTeen\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Logistics Sta\ufb00 - MB",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Time",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Group in charge",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Contents\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Note",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "9:45\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Receptionist group (SevenTeen)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Greet participants",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Before the meeting, the SevenTeen will stand and greet guests atthe door, invite the reporting groups to their assigned seats.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:00\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 2,
+            "paragraphs": [
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:10",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "State the purpose of the meeting and declare the meeting open.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "The ABC will send a representative to give opening remarks aboutthe reason for holding the meeting and announce the list and theorder of reporting groups:\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "1. Cin",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "2. Appendicitis",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "3. Mabu\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "3. Blue Ribbon",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:10",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:22",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reporting group 1",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Cin)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Present the report",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ After 12 minutes, the reviewing group asks 2 questions for thereporting group to answer (discussion time is 10 minutes).",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ ABC summarizes main points and introduces the next reportinggroup after each reporting session \ufb01nishes.\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 3,
+            "paragraphs": [
+                [
+                    {
+                        "text": "+ SevenTeen collects the group evaluation sheet of the reviewinggroup and individual sheet of each member of the listening groups.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Total is 30 minutes.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:22",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:32",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reviewing group 1",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Appendicitis)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Ask the reporting group questions",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:32",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:37",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Summarize main points and introduce next group",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:37",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:49",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reporting group 2",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Appendicitis)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 4,
+            "paragraphs": [
+                [
+                    {
+                        "text": "Present the report",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:49",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:59",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reviewing group 2",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Mabu)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Ask the reporting group questions",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "10:59",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:04",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Summarize main points and announce 5-minute break",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:04",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:09",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "5-minute break\u00a0\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 5,
+            "paragraphs": [
+                [
+                    {
+                        "text": "11:00",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:05",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Introduce the next group reporting",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ After 12 minutes, the Blue Ribbon asks 2\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "questions for Mabu to answer (discussion time is 10 minutes).",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ ABC summarizes main points and introduces the next reportinggroup after each reporting session \ufb01nishes.\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ SevenTeen collects the group evaluation sheet of the reviewinggroup and individual sheet of each member of the listening groups.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Total is 30 minutes.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:05",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:13",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reporting report 3",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Mabu)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Present the report",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:13",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 6,
+            "paragraphs": [
+                [
+                    {
+                        "text": "11:25",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reviewing group 3",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Blue Ribbon)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Ask the reporting group questions",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:19",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:30",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Summarize main points and introduce next group",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:21",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:33",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reporting report 4",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Blue Ribbon)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Present the report",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+After 12 minutes, the Cin asks 2 questions for the Blue Ribbon toanswer (discussion time is 10 minutes).",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ ABC summarizes main points and introduces the next reportinggroup after each reporting session \ufb01nishes.\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "+ SevenTeen collects the group evaluation sheet of the reviewing",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 7,
+            "paragraphs": [
+                [
+                    {
+                        "text": "group and individual sheet of each member of the listening groups.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Total is 30 minutes.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:33",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:45",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Reviewing group 4",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(Cin)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Ask the reporting group questions",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "11:45",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "12:00",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader\u00a0",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Summarize the proposal of each reporting group and choose thebest one",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "After the groups have \ufb01nished reporting, the ABC remarks on eachgroup's presentation and makes a decision on which proposal tochoose.",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "12:00",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "-",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "12:10",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Team leader",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page_number": 8,
+            "paragraphs": [
+                [
+                    {
+                        "text": "(ABC)",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Close the meeting",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "ABC expresses their thanks and declares the meeting closed",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ],
+                [
+                    {
+                        "text": "Hope the meeting goes well!",
+                        "font_type": "CharisSIL",
+                        "font_size": 11.0,
+                        "styling": 4,
+                        "color": 0
+                    }
+                ]
+            ]
+        }
+    ]
+}
