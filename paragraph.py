@@ -1,4 +1,6 @@
 import re
+import requests
+from deep_translator import GoogleTranslator
 
 class Content:
     def __init__(self, text: str, font_type, color: str, font_size, styling):
@@ -29,9 +31,21 @@ class Content:
 class Paragraph:
     def __init__(self, contents: list[Content]):
         self.contents = contents
+        self.translated_text = ""
         
     def render(self):
         return [content.render() for content in self.contents]
+    
+    def get_text(self):
+        return "".join([content.text for content in self.contents])
+    
+    def translate(self):
+        text = self.get_text()
+        self.translated_text = GoogleTranslator(source='auto', target='en').translate(text)
+    
+    def get_translate(self):
+        return self.translated_text
+    
 
 class Page:
     def __init__(self, paragraphs: list[Paragraph], page_number: int):
@@ -53,3 +67,10 @@ class File:
             "file_name": self.file_name,
             "pages": [page.render() for page in self.pages]
         }
+        
+    def translate(self):
+        for page in self.pages:
+            for paragraph in page.paragraphs:
+                paragraph.translate()
+    
+    
