@@ -4,9 +4,9 @@ from file_mngt import extract_document, extract_paragraph_text, recovery_documen
 
 
 ### QUESTION 1
-extract_document(f"app/{MOCK_FILE_PDF}", f"{TARGET_FOLDER}/q1/{MOCK_FOLDER_PDF}")
+extract_document(f"/app/input/{MOCK_FILE_PDF}", f"{TARGET_FOLDER}/q1/{MOCK_FOLDER_PDF}")
 
-extract_document(f"app/{MOCK_FILE_DOCX}", f"{TARGET_FOLDER}/q1/{MOCK_FOLDER_DOCX}")
+extract_document(f"/app/input/{MOCK_FILE_DOCX}", f"{TARGET_FOLDER}/q1/{MOCK_FOLDER_DOCX}")
 
 ### QUESTION 2
 extract_paragraph_text(MOCK_FILE_PDF, f"{INPUT_FOLDER}/{MOCK_FILE_PDF}", f"{TARGET_FOLDER}/q2/{MOCK_FILE_PDF}")
