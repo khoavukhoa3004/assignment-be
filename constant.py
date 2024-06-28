@@ -1,5 +1,5 @@
-TARGET_FOLDER = "app/output"
-INPUT_FOLDER = "app/input"
+TARGET_FOLDER = "/app/output"
+INPUT_FOLDER = "/app/input"
 
 MOCK_FILE_DOCX = "docx_mock_file.docx"
 MOCK_FILE_PDF = "pdf_mock_file.pdf"

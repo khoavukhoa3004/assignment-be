@@ -16,13 +16,14 @@ def get_pdf_document(file_path):
             converted_pdf = pdf_doc.convert_to_pdf()
             return fitz.open("pdf", converted_pdf)
     
-    except fitz.errors.FileDataError:
+    except fitz.FileDataError as error:
+        print(error)
         pass
 
 
 # Question 1
 def extract_document(file_path: str, target_folder: str):
-    doc = pymupdf.open(file_path)
+    doc = get_pdf_document(file_path)
     if not os.path.exists(target_folder):
         os.makedirs(target_folder)
         
